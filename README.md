@@ -9,7 +9,12 @@
 - Wireshark (packet capture and analysis)
 - Windows Event Viewer (log analysis)
 ## Key Findings
-- The purpose of security tools and how they fit into the defensive toolkit
-- Used Wireshark to capture live network traffic and interpret basic packet data
-- Understood what Burp Suite does and how web proxies help find vulnerabilities
-- Read and interpret system and security logs to detect suspicious activity
+# Wireshark Packet Capture
+- The Packet List Pane with multiple protocols visible (TCP,HTTP, DNS, etc.)
+- The display filter bar showing 'http' and the filtered results including a request to neverssl.com
+- The TCP Stream window showing an HTTP request (red) and response (blue)
+- The display filter bar showing 'dns' with at least one query and response visible
+# Log Analysis Evidence
+- A successful login event with details visible (account name, logon type, time)
+- Failed login attempts
+- Audit log cleared events and screenshot showing zero results with the filter active
